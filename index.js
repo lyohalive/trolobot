@@ -37,7 +37,7 @@ app.get('/', function(req, response) {
         url: 'https://chatapi.viber.com/pa/set_webhook',
         headers: headerBody,
         body: {
-            url: 'https://susi-viberbot.tk/',
+            url: 'https://trolobot.herokuapp.com',
             event_types: ['delivered', 'seen', 'failed', 'subscribed', 'unsubscribed', 'conversation_started']
         },
         json: true
